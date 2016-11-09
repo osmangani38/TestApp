@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector tools:ignore="MissingPrefix"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@android:color/white" />
+                    <corners android:radius="1dp" />
+                    <padding android:left="5dp" />
+                </shape>
+            </item>
+            <item>
+                <bitmap
+                    android:gravity="left"
+                    android:src="@drawable/switch_account"/>
+            </item>
+            <item>
+                <bitmap
+                    android:gravity="right"
+                    android:src="@drawable/arrow_down_green"/>
+            </item>
+         </layer-list>
+    </item>
+</selector>
