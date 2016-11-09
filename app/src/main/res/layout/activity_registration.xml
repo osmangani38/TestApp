@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="#f4f4f4"
-    tools:context="com.example.osman.myapplicationa3.MainActivity">
+    tools:context="com.testapp.RegistrationActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,8 +15,8 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="com.example.osman.myapplicationa3.MainActivity"
-        tools:showIn="@layout/activity_main">
+        tools:context="com.testapp.RegistrationActivity"
+        tools:showIn="@layout/activity_registration">
 
         <ImageView
             android:id="@+id/bg_regn"
@@ -192,7 +192,55 @@
                     android:layout_marginStart="30dp">
 
                     <EditText
-                        android:id="@+id/dob"
+                        android:id="@+id/userState"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edittext_height"
+                        android:hint="@string/state"
+                        android:drawableStart="@drawable/map"
+                        android:drawableLeft="@drawable/map"
+                        android:drawablePadding="15dp"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPostalAddress"
+                        android:maxLines="1"
+                        fontPath="Raleway-Regular.ttf"
+                        android:textColor="@color/editTextColor" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp">
+
+                    <EditText
+                        android:id="@+id/userCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edittext_height"
+                        android:hint="@string/city"
+                        android:drawableStart="@drawable/map"
+                        android:drawableLeft="@drawable/map"
+                        android:drawablePadding="15dp"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPostalAddress"
+                        android:maxLines="1"
+                        fontPath="Raleway-Regular.ttf"
+                        android:textColor="@color/editTextColor" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp">
+
+                    <EditText
+                        android:id="@+id/zipcode"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/edittext_height"
                         android:hint="@string/zipcode"
@@ -206,8 +254,6 @@
                         android:textColor="@color/editTextColor" />
 
                 </android.support.design.widget.TextInputLayout>
-
-
 
                 <Button
                     android:id="@+id/btn_signup"

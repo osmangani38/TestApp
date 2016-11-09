@@ -11,5 +11,29 @@
     <string name="zipcode">Zip Code</string>
     <string name="password">Password</string>
     <string name="confirmpassword">Confirm Password</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="storelocator">Store Locator</string>
+    <string name="loremipsum">Lorem ipsum dolor sit amet</string>
+    <string name="signupas">Sign up as</string>
+    <string name="user">User</string>
+    <string name="storeowner">Store Owner</string>
+    <string name="login">Login</string>
+    <string name="bd_rgn">bd_rgn</string>
+    <string name="loginasuser">Login as User</string>
+    <string name="loginasstore">Login as Store Owner</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="dontaccount">Don\'t have an account? </string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="enteremail">Enter your registered email id</string>
+    <string name="send">Send</string>
+    <string name="changepass">Change Password</string>
+    <string name="enterverifycode">Enter verification code\n sent to your registered email id</string>
+    <string name="verifycode">Verification Code</string>
 
+
+    <string-array name="loggeduser">
+        <item>@string/loginasuser</item>
+        <item>@string/loginasstore</item>
+    </string-array>
 </resources>

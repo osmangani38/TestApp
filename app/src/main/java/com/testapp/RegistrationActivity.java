@@ -20,7 +20,7 @@ import okhttp3.RequestBody;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 
-public class MainActivity extends AppCompatActivity {
+public class RegistrationActivity extends AppCompatActivity {
     ProgressDialog prgDialog;
     EditText email,password;
     private OkHttpClient client;
@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-        setContentView(R.layout.activity_main);
-        prgDialog = new ProgressDialog(MainActivity.this);
+        setContentView(R.layout.activity_registration);
+        prgDialog = new ProgressDialog(RegistrationActivity.this);
         prgDialog.setCancelable(false);
         email = (EditText)findViewById(R.id.email);
         password = (EditText)findViewById(R.id.password);
