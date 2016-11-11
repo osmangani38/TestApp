@@ -1,4 +1,4 @@
-package com.testapp;
+package com.testapp.interfaces;
 
 /**
  * Created by osman on 22-09-2016.

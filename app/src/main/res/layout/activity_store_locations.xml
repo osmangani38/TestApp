@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/loginbtnColor">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            fontPath="Raleway-Regular.ttf"
+            android:text="@string/storelocations"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/search"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="15dp"
+        android:drawableEnd="@drawable/search_icon"
+        android:drawableRight="@drawable/search_icon"
+        android:paddingRight="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#cecece"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:maxLines="1"
+        android:maxLength="40"
+        tools:ignore="MissingPrefix,RtlHardcoded,RtlSymmetry"
+        fontPath="Raleway-Light.ttf"
+        android:background="@drawable/search_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/section_label"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

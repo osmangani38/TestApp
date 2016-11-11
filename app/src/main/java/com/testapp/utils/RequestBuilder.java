@@ -1,4 +1,4 @@
-package com.testapp;
+package com.testapp.utils;
 
 import okhttp3.FormBody;
 import okhttp3.RequestBody;

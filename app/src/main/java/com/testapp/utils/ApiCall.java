@@ -1,4 +1,6 @@
-package com.testapp;
+package com.testapp.utils;
+
+import com.testapp.interfaces.IAppDataDownloader;
 
 import java.io.IOException;
 

@@ -36,7 +36,17 @@ public class SignUpActivity extends AppCompatActivity {
         signup_user.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SignUpActivity.this, RegistrationActivity.class));
+                Intent i = new Intent(SignUpActivity.this, RegistrationActivity.class);
+                i.putExtra("usertype","user");
+                startActivity(i);
+            }
+        });
+        signup_storeowner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SignUpActivity.this, RegistrationActivity.class);
+                i.putExtra("usertype","store");
+                startActivity(i);
             }
         });
 

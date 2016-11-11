@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/storelocator"
+            android:textColor="@color/loginbtnColor"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            fontPath="Raleway-SemiBold.ttf"
+            android:textSize="40sp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvAppSubHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loremipsum"
+            android:textColor="#838080"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            fontPath="Raleway-SemiBold.ttf"
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/bg_regn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_two"
+            android:layout_marginTop="40dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/bd_rgn" />
+
+
+        <TextView
+            android:id="@+id/tvFindNearest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/findyournearest"
+            android:textColor="#606060"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            fontPath="Raleway-Bold.ttf"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvStartShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startshopping"
+            android:textColor="#606060"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            fontPath="Raleway-Regular.ttf"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"/>
+
+
+        <Button
+            android:id="@+id/btn_store_locator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:textAllCaps="false"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/store_locator_btn"
+            android:textColor="#ffffff"
+            fontPath="Raleway-Medium.ttf"
+            android:enabled="true"
+            android:layout_gravity="center"
+            android:text="@string/storelocator" />
+
+        <TextView
+            android:id="@+id/tvselectManual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectmanually"
+            fontPath="Raleway-Bold.ttf"
+            android:layout_marginTop="10dp"
+            android:textColor="#8cc778"
+            android:layout_gravity="center"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

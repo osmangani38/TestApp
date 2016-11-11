@@ -37,7 +37,37 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txtLayoutStoreName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="45dp"
+                    android:clipToPadding="false"
+                    android:visibility="gone"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp">
+
+                    <EditText
+                        android:id="@+id/storeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edittext_height"
+                        android:hint="@string/storename"
+                        android:drawableStart="@drawable/user_icon"
+                        android:drawableLeft="@drawable/user_icon"
+                        android:drawablePadding="15dp"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        fontPath="Raleway-Regular.ttf"
+                        android:textColor="@color/editTextColor"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txtLayoutUser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="45dp"
@@ -136,6 +166,33 @@
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txtLayoutStoreContactName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:clipToPadding="false"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp">
+
+                    <EditText
+                        android:id="@+id/storeContactName"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edittext_height"
+                        android:hint="@string/contactname"
+                        android:drawableStart="@drawable/user_icon"
+                        android:drawableLeft="@drawable/user_icon"
+                        android:drawablePadding="15dp"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        fontPath="Raleway-Regular.ttf"
+                        android:textColor="@color/editTextColor"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
@@ -160,6 +217,33 @@
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txtLayoutStoreAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp">
+
+                    <EditText
+                        android:id="@+id/storeAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edittext_height"
+                        android:hint="@string/storeaddress"
+                        android:drawableStart="@drawable/map"
+                        android:drawableLeft="@drawable/map"
+                        android:drawablePadding="15dp"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPostalAddress"
+                        android:maxLines="1"
+                        fontPath="Raleway-Regular.ttf"
+                        android:textColor="@color/editTextColor" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txtLayoutUserAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
@@ -184,6 +268,7 @@
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txtLayoutState"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
@@ -220,8 +305,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/edittext_height"
                         android:hint="@string/city"
-                        android:drawableStart="@drawable/map"
-                        android:drawableLeft="@drawable/map"
+                        android:drawableStart="@drawable/city"
+                        android:drawableLeft="@drawable/city"
                         android:drawablePadding="15dp"
                         android:imeOptions="actionNext"
                         android:inputType="textPostalAddress"

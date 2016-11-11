@@ -1,6 +1,8 @@
-package com.testapp;
+package com.testapp.utils;
 
 import android.app.Application;
+
+import com.testapp.R;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 

@@ -30,6 +30,14 @@
     <string name="changepass">Change Password</string>
     <string name="enterverifycode">Enter verification code\n sent to your registered email id</string>
     <string name="verifycode">Verification Code</string>
+    <string name="storename">Store Name</string>
+    <string name="contactname">Contact Name</string>
+    <string name="storeaddress">Store Address</string>
+    <string name="findyournearest">Find Your Nearest Store</string>
+    <string name="startshopping">and Start Shopping</string>
+    <string name="selectmanually">Select it Manually</string>
+    <string name="storelocations">Store Locations</string>
+    <string name="search">Search</string>
 
 
     <string-array name="loggeduser">
